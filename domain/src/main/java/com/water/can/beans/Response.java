@@ -10,7 +10,7 @@ public class Response implements Serializable {
 	 * 300 :
 	 * 
 	 */
-	private Integer statusCode;
+	private String statusCode;
 	/**
 	 * error codes: FAILURE,SUCCESS,FAILURE
 	 */
@@ -46,13 +46,13 @@ public class Response implements Serializable {
 	/**
 	 * @return the statusCode
 	 */
-	public Integer getStatusCode() {
+	public String getStatusCode() {
 		return statusCode;
 	}
 	/**
 	 * @param statusCode the statusCode to set
 	 */
-	public void setStatusCode(Integer statusCode) {
+	public void setStatusCode(String statusCode) {
 		this.statusCode = statusCode;
 	}
 	/**
